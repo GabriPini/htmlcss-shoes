@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+}
+
+
+.products{
+ 
+    height: 100vh;
+    width: 100%;
+    border: 2px solid black;
+    position: relative;
+}
+
+.bg-r{
+    background-color: red;
+    color: rgb(255, 255, 0);
+}
+.bg-g{
+    background-color: rgb(0, 128, 0);
+    color: rgb(255, 255, 0);
+}
+.bg-y{
+    background-color: rgb(255, 255, 0);
+    color: rgb(0, 128, 0);
+}
+
+.products img{
+    position: absolute;
+     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ 
